@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.simplesolutions.vipul.snookerscorekeeper.Snooker_Activity"
+    tools:showIn="@layout/activity_snooker_"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="#716e6e"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/p2namelabel"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:text="Player 2 Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/p1namelabel"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:text="Player 1 Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/p1bar"
+        android:layout_width="121dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?android:attr/colorActivatedHighlight"/>
+
+    <ImageView
+        android:id="@+id/p2bar"
+        android:layout_width="121dp"
+        android:layout_height="12dp"
+        app:srcCompat="?android:attr/colorActivatedHighlight"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="34dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="34dp"/>
+
+    <TextView
+        android:id="@+id/P1Score"
+        android:layout_width="77dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="120dp"
+        android:text="Score"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <TextView
+        android:id="@+id/breakview"
+        android:layout_width="77dp"
+        android:layout_height="37dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginTop="120dp"
+        android:text="Break"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="153dp"/>
+
+    <Button
+        android:id="@+id/score1"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#f12011"
+        android:text="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_marginBottom="252dp"/>
+
+    <Button
+        android:id="@+id/score2"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#f9e10f"
+        android:text="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_marginBottom="301dp"/>
+
+    <Button
+        android:id="@+id/score3"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#113e00"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="301dp"
+        android:layout_marginRight="34dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="34dp"/>
+
+    <Button
+        android:id="@+id/score4"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#812f12"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="252dp"
+        android:layout_marginLeft="38dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="38dp"/>
+
+    <Button
+        android:id="@+id/score5"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#2436c1"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="202dp"
+        android:layout_marginLeft="38dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="38dp"/>
+
+    <Button
+        android:id="@+id/score7"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#000000"
+        android:text="7"
+        android:textColor="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="202dp"
+        android:layout_marginRight="34dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="34dp"/>
+
+    <Button
+        android:id="@+id/score6"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#ff71ee"
+        android:text="6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_marginBottom="202dp"/>
+
+    <Button
+        android:id="@+id/foul4"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="4"
+
+        android:layout_marginLeft="7dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="110dp"
+        android:layout_marginStart="7dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fouls"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="160dp"/>
+
+    <Button
+        android:id="@+id/foul5"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="5"
+        android:layout_marginLeft="95dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="110dp"
+        android:layout_marginStart="95dp"/>
+
+    <Button
+        android:id="@+id/foul6"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="93dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="93dp"/>
+
+    <Button
+        android:id="@+id/foul7"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="7"
+        android:layout_marginRight="6dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="110dp"
+        android:layout_marginEnd="6dp"/>
+
+    <Button
+        android:id="@+id/snookers"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:text="Snookers"
+        android:layout_marginRight="96dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="49dp"
+        android:layout_marginEnd="96dp"/>
+
+    <Button
+        android:id="@+id/nopoints"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="301dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:background="#ffffff"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/P2Score"
+        android:layout_width="77dp"
+        android:layout_height="37dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="120dp"
+        android:text="Score"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="38dp"/>
+
+    <Button
+        android:id="@+id/gameOver"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="1dp"
+        android:text="Finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

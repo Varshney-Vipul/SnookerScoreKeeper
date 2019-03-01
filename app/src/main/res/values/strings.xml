@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SnookerScoreKeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_snooker_">Snooker_Activity</string>
+    <string name="title_activity_race_">Race_Activity</string>
+    <string name="title_activity_players_name_">PlayersName_Activity</string>
+</resources>
